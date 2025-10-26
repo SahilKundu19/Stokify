@@ -177,6 +177,13 @@ declare global {
         className?: string;
     };
 
+    type UserForNewsEmail = {
+        id: string;
+        email: string;
+        name: string;
+        country?: string;
+    };
+
     type AlertData = {
         symbol: string;
         company: string;
